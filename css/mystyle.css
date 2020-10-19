@@ -1,0 +1,45 @@
+/* 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* a 태그 안에 있는 이미지의 링크 표시를 제거하기 위해 설정 */
+img {
+    border: 0;
+}
+
+#wrap {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#main_gnb > ul {
+    overflow: hidden;
+}
+#main_gnb > ul > li {
+    float: left;
+}
+#munu1 > ul > li > ul {
+    overflow: hidden;
+}
+#menu2 > ul {
+    overflow: hidden;
+}
+#munu1 > ul > li > ul > li {
+    float: left;
+}
+#menu2 > ul > li {
+    float: left;
+}
+
